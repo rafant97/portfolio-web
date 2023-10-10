@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "displayName": "Stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SkillWork": {
+      "type": "string"
+    },
+    "TechnologiesWorkedYears": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.technology"
+    }
+  }
+}

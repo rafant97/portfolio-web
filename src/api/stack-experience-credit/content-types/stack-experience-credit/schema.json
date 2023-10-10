@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stack_experience_credits",
+  "info": {
+    "singularName": "stack-experience-credit",
+    "pluralName": "stack-experience-credits",
+    "displayName": "StackExperienceCredits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.stack"
+    },
+    "Identifier": {
+      "type": "uid"
+    }
+  }
+}
